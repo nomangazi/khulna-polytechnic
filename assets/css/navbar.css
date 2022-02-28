@@ -1,0 +1,112 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* for declear variable */
+:root{
+    --greenbg: #6DB700;
+    --greenbg-deep:#4D8100;
+    --hover-bg:#13571F;
+    --w180:190px;
+    --bs-font-SolaimanLipi:'SolaimanLipi', 'Roboto', 'FontAwesome', sans-serif;
+}
+.nav_menuBar ul{
+    list-style: none;
+    z-index: 9999;
+}
+
+.nav_menuBar{ /*this class for --div-- tag*/
+    background-color: var(--greenbg);
+}
+
+.nav_menuBar .navBar{ /* this class for --nav-- tag*/
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menuBar .menu > li, .menu > a{ /*this class for --ul-- tag*/
+    display: inline-block;
+}
+.nav_menuBar .menu a{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    padding: 8px 14px;
+    transition: 0.22s ease-in-out;
+    position: relative;
+    z-index: 1;
+    border-right: solid 1px #7ED400;
+    font-size: 17px;
+}
+.nav_menuBar .menu a:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:var(--hover-bg) ;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.nav_menuBar .menu a:hover,
+.nav_menuBar .menu a:focus,
+.nav_menuBar .menu a:active{
+    color: #fff;
+}
+.nav_menuBar .menu a:hover:before,
+.nav_menuBar .menu a:focus:before,
+.nav_menuBar .menu a:active :before{
+    transform: scaleX(1);
+
+}
+.nav_menuBar .menu a{
+    font-family: var(--bs-font-SolaimanLipi);
+}
+/* code for sub menu */
+.nav_menuBar .menu li{
+    position: relative;
+}
+/* right arrow set postion right */
+.nav_menuBar .sub_menu li a i{
+    float: right;
+}
+/* sub menu level 1 style */
+.nav_menuBar .sub_menu{
+    position: absolute;
+    background: var(--greenbg-deep);
+    width: var(--w180);
+    left: 0;
+    border:solid 1px #7ED400;
+    transform: scaleY(0);
+    transition: .3s ease-in;
+    transform-origin: top;
+    z-index: 9999;
+  
+}
+.nav_menuBar .sub_menu a,.sub_menu2 a{
+        border-bottom: solid 1px #7ED400;
+}
+/* sub_menu level 2 style */
+.nav_menuBar .sub_menu2{
+    position:absolute;
+    left: 100%;
+    top:0;
+    background: var(--greenbg-deep);
+    width: var(--w180);
+    transform: scaleY(0);
+    transition: .3s ease-in;
+    transform-origin: top;
+    z-index: 9999;
+}
+/* show menu on hover */
+.nav_menuBar .menu li:hover > .sub_menu{
+    transform: scaleY(1);
+    
+}
+
+.nav_menuBar .sub_menu li:hover .sub_menu2{
+    transform: scaleY(1);
+}

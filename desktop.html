@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+	<title>Khulna Polytechnic Institute</title>
+	<!-- jQuery is javascript files -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<!-- website fav icon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!-- animated css add -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- style sheet for  -->
+	<link rel="stylesheet" href="./assets/css/tailwind/tailwind.min.css">
+	<!-- icon for this link -->
+	<script src="https://kit.fontawesome.com/5630b229a4.js" crossorigin="anonymous"></script>
+	<!-- main stylesheet for my this website -->
+	<link rel="stylesheet" href="./assets/css/navbar.css">
+	<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="select-none" id="top">
+	<!-- this scrtion for wrap main content -->
+	<section class="max-w-6xl mx-auto bg-white px-3.5 overflow-hidden shadow-md clear-both">
+		<header class="header-top">
+			<!-- top header  -->
+			<div class="top-header-address text-xs p-5 pb-2 pt-2">
+				<!--  -->
+				<div class="grid grid-cols-2 justify-items-stretch items-center">
+					<!-- this division for //grid system-->
+					<!-- this code for top header college header -->
+					<div class="text-white ">
+						<div class="flex sm:flex">
+							<ul class="text-white md:self-center sm:self-center">
+								<li class="sm:inline-block">
+									<i class="fas fa-map-marker-alt"></i> খালিশপুর, খুলনা-৯০০০
+								</li>
+								<li class="sm:inline-block ml-4">
+									<i class="fas fa-phone-alt"></i> +৮৮০৪১-৭৬২৩৫২
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- this code for top header flag -->
+					<div class="top_flag grid justify-items-end p-0">
+						<div class="flex sm:flex">
+							<ul class="p-0">
+								<li class="sm:inline-block">
+									<img class="w-6" src="./images/logo/bd_flag.png" alt="Bangladesh">
+								</li>
+								<li class="sm:inline-block">
+									<img class="w-6" src="./images/logo/uk_flag.png" alt="United Kingdom">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ----------- slider ------- -->
+			<div class="relative overflow-hidden">
+				<div id="sliderDiv">
+					<div class="slider_container h-40 sm:h-72 md:h-80">
+						<div class="sliderItems active">
+							<img class="w-screen" src="./images/slider_image/kpi_garden.png" />
+						</div>
+						<div class="sliderItems">
+							<img class="w-screen" src="./images/slider_image/kpi_front.png" />
+						</div>
+						<div class="sliderItems ">
+							<img src="./images/slider_image/munajat_mural.jpg" />
+						</div>
+						<div class="sliderItems ">
+							<img src="./images/slider_image/vice_principal_sports.jpg" />
+						</div>
+					</div>
+				</div>
+				<div
+					class="sliderDivText absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 sm:-translate-x-2/4">
+					<div class="collegeAddressName flex items-center space-x-4">
+						<div class="logo ">
+							<img class="mb-4 w-20 ml-8 bg-white rounded-full" src="./images/logo/kpi_logo.png"
+								alt="KPI Logo">
+						</div>
+						<div class="collegeName">
+							<h1 class="font-medium text-lg sm:text-xl md:text-3xl">খুলনা পলিটেকনিক ইন্সটিটিউট
+								<br>
+								<small class="">খালিশপুর, খুলনা-৯০০০</small>
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- create navigation menu bar -->
+			<div class="nav_menuBar">
+				<nav class="navBar max-w-6xl">
+					<ul class="menu">
+						<li><a class="home" href="./index.html"><i class="fas fa-home"></i></a></li>
+						<li><a>আমাদের সম্পর্কে <i class="fas fa-sort-down"></i></a>
+							<ul class="sub_menu">
+								<li><a href="./about_instituion.html">প্রতিষ্ঠান সম্পর্কে</a></li>
+								<li><a href="./goal_institution.html">লক্ষ্য(রুপকল্প)</a></li>
+								<li><a href="./mission_institute.html">উদ্দেশ্য(অভিলক্ষ্য)</a></li>
+								<li><a href="./message-form-principal.html">অধ্যক্ষ মহোদয়ের বাণী</a></li>
+								<li><a href="./message-from-vice-principal.html">উপাধ্যক্ষ মহোদয়ের বাণী</a></li>
+							</ul>
+						</li>
+						<li><a href="#">টেকনোলজি <i class="fas fa-sort-down"></i></a>
+							<ul class="sub_menu">
+								<li><a href="#">সিভিল <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./civil/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./civil/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./civil/staff.html">স্টাফ</a></li>
+										<li><a href="./civil/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">ইলেকট্রিক্যাল <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./electrical/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./electrical/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./electrical/staff.html">স্টাফ</a></li>
+										<li><a href="./electrical/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">মেকানিক্যাল <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./mechanical/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./mechanical/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./mechanical/staff.html">স্টাফ</a></li>
+										<li><a href="./mechanical/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">পাওয়ার <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./power/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./power/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./power/staff.html">স্টাফ</a></li>
+										<li><a href="./power/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">ইলেকট্রনিক্স <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./electronic/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./electronic/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./electronic/staff.html">স্টাফ</a></li>
+										<li><a href="./electronic/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">কম্পিউটার <i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./computer/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./computer/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./computer/staff.html">স্টাফ</a></li>
+										<li><a href="./computer/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">ইএনভিটি<i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./environmental/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./environmental/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./environmental/staff.html">স্টাফ</a></li>
+										<li><a href="./environmental/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">আইপিসিটি<i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./IPCT/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./IPCT/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./IPCT/staff.html">স্টাফ</a></li>
+										<li><a href="./IPCT/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">আরএসি<i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./RAC/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./RAC/craft_instructor.html">ক্রাফট ইন্সট্রাক্টর</a></li>
+										<li><a href="./RAC/staff.html">স্টাফ</a></li>
+										<li><a href="./RAC/students.html">ছাত্র-ছাত্রী</a></li>
+									</ul>
+								</li>
+								<li><a href="#">আর এস<i class="fas fa-caret-right"></i></a>
+									<ul class="sub_menu2">
+										<!-- start nested sub menu-->
+										<li><a href="./RS/teacher.html">শিক্ষকমন্ডলী</a></li>
+										<li><a href="./RS/staff.html">স্টাফ</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="./class_routin.html">ক্লাস রুটিন</a></li>
+						<li><a href="./result.html">রেজাল্ট</a></li>
+						<li><a href="./digital_content.html">ডিজিটাল কটেন্ট</a></li>
+						<li><a href="./gallery.html">ফটো গ্যালারি</a></li>
+						<li><a href="#">NTVQF
+								<!-- <i class="fas fa-sort-down"></i> -->
+							</a></li>
+						<li><a>একাডেমিক <i class="fas fa-sort-down"></i></a>
+							<ul class="sub_menu">
+								<li><a href="./academic/job_placement.html">জব প্লেসমেন্ট</a></li>
+								<li><a href="./academic/syllabus.html">সিলেবাস</a></li>
+								<li><a href="./academic/academic_calender.html">একাডেমিক ক্যালেন্ডার</a></li>
+								<li><a href="./academic/register.html">রেজিস্টার</a></li>
+								<li><a href="./academic/library.html">লাইব্রেরী</a></li>
+								<li><a href="./academic/general_section.html">জেনারেল সেকশন</a></li>
+								<li><a href="./academic/accounts.html">একাউন্টস</a></li>
+								<li><a href="./academic/care_taker.html">কেয়ার টেকার</a></li>
+								<li><a href="./academic/store_section.html">স্টোর সেকশন</a></li>
+								<li><a href="./academic/support_staff.html">সাপোর্ট স্টাফ</a></li>
+							</ul>
+						</li>
+						<li><a href="./contact.html">যোগাযোগ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- end of the header Menu -->
+		<main class="main_container mt-5">
+			<div class="main_body">
+				<div class="relative w-3/4 float-left pr-4">
+					<!-- 3/4-->
+					<!-- start notice panel -->
+					<aside class="notice_board_wiget p-4">
+						<h2 class="notice_board_title text-white p-1.5 rounded-md rounded-b-none text-center">
+							নোটিশ বোর্ড
+						</h2>
+						<ul class="notice_board_list max-w-">
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">23-12</span><br>2021
+									</span>
+									<a class="noticeFile ml-2" href="./notices/semester_fee's.pdf">সেমিস্টার ফিস
+										প্রদানের বিজ্ঞপ্তি</a>
+								</div>
+							</li>
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">13-02</span><br>2022
+									</span>
+									<a class="noticeFile ml-2" href="./notices/Result-1st-2021.pdf">১ম পর্বের
+										রেজাল্ট</a>
+								</div>
+							</li>
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">23-12</span><br>2021
+									</span>
+									<a class="noticeFile ml-2" href="./notices/Result3rd-2021.pdf">৩য় পর্বের রেজাল্ট</a>
+								</div>
+							</li>
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">23-12</span><br>2021
+									</span>
+									<a class="noticeFile ml-2" href="./notices/Supplymentary-Exam.pdf">১ম ও ৩য় পর্ব
+										(পরিপূরক) পরীক্ষার ফরম ফিলাপ প্রসংগে</a>
+								</div>
+							</li>
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">23-12</span><br>2021
+									</span>
+									<a class="noticeFile ml-2" href="./notices/result_4th_2016_regulation.pdf">পুনঃ
+										ভর্তি প্রসংগে</a>
+								</div>
+							</li>
+							<li class="">
+								<div class="flex items-center border-b-2 border-dotted ">
+									<span class="notice_add_date rounded">
+										<span class="border-solid border-b border-white">23-12</span><br>2021
+									</span>
+									<a class="noticeFile ml-2" href="./notices/class-routine-2021-246.pdf">২য়,৪র্থ ও
+										৬ষ্ঠ পর্বের ক্লাশ রুটিন-২০২১(১ম শিফট)</a>
+								</div>
+							</li>
+						</ul>
+						<div class="notice-archive">
+							<a href="./notice_board.html" class="">সকল নোটিশ</a>
+						</div>
+						<div class="clear-both"></div>
+					</aside>
+					<!-- ------------start two colums ------------------------ -->
+					<section class="techedu_two_colums px-2">
+						<div class="container">
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>ইন্সটিটিউট ‍সম্পর্কিত</h2>
+										<div class="widget-image">
+											<img src="./images/logo/Directorate.jpg" alt="Directorate">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">লক্ষ্য ও উদ্দেশ্য</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">কর্মবন্টন</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">সিটিজেন চার্টার</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>প্রশিক্ষণ সংক্রান্ত</h2>
+										<div class="widget-image">
+											<img src="./images/logo/training.jpg" alt="training">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">প্রতিষ্ঠানের তালিকা</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">প্রশিক্ষণ আদেশ-বিদেশে</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">প্রশিক্ষণ আদেশ-দেশে</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>তথ্য অধিকার</h2>
+										<div class="widget-image">
+											<img src="./images/logo/Information.jpg" alt="Information">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">তথ্যপ্রদানকারী কর্মকর্তা</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">তথ্য প্রাপ্তির আবেদনপত্র</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">আপীল আবেদন</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>বার্ষিক কর্মসম্পাদন চুক্তি</h2>
+										<div class="widget-image">
+											<img src="./images/logo/apa.jpg" alt="ApA">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">প্রজ্ঞাপন/পরিপত্র</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#"> বার্ষিক কর্মপরিকল্পনা</a>
+											</li>
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>উদ্ভাবনী কার্যক্রম</h2>
+										<div class="widget-image">
+											<img src="./images/logo/Innovaation.jpg" alt="innovaation">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">ইনোভেশন টীম</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">বার্ষিক উদ্ভাবনী পরিকল্পনা</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">উদ্ভাবন বাণিজ্যিকীকরণ</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>এসডিজি</h2>
+										<div class="widget-image">
+											<img src="./images/logo/FinalLogoSDG.jpg" alt="SDG">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">এসডিজি কর্মপরিকল্পনা</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">এসডিজি সংক্রান্ত দলিল</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">এসডিজি সংক্রান্ত প্রতিবেদন</a>
+											</li>
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>জাতীয় শুদ্ধাচার কৌশল</h2>
+										<div class="widget-image">
+											<img src="./images/logo/Intrigrity.jpg" alt="Intrigrity">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">জাতীয় শুদ্ধাচার কৌশল</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">কর্মপরিকল্পনা</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">শুদ্ধাচার কৌশল কমিটি</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>অফিস আদেশ / NOC</h2>
+										<div class="widget-image">
+											<img src="./images/logo/noc.jpg" alt="NOC">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">বহিঃ বাংলাদেশ</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#"> ছুটি/শ্রান্তি বিনোদন আদেশ</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#"> NOC(কর্মকর্তা ও কর্মচারী)</a>
+											</li>
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>ফরম ও প্রকাশনা</h2>
+										<div class="widget-image">
+											<img src="./images/logo/forms.jpg" alt="Forms">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">জিপিএফ আবেদন ফরম</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">বিদেশ ভ্রমন আবেদন ফরম</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">পারিবারিক পেনশন ফরম</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>এমপিও নোটিশ</h2>
+										<div class="widget-image">
+											<img src="./images/logo/mpo-L.jpg" alt="MPO">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">অনলাইন এমপিও আবেদন</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">ট্রেড জনবলের তথ্য</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">এমপিও নীতিমালা</a>
+											</li>
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>অনলাইন সেবা</h2>
+										<div class="widget-image">
+											<img src="./images/logo/onlineservice.jpg" alt="Online Service">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">স্কাইপি ঠিকানা-Poly Tec.</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">প্রতিষ্ঠান প্রধান-সকল</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">স্কাইপি ঠিকানা-TSC</a>
+											</li>
+
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+								<div class="w-1/2 float-left px-4">
+									<!-- --------------------- start single-two-column-widget----------- -->
+									<div class="single-two-column-widget">
+										<h2>নীতিমালা/পরিপত্র</h2>
+										<div class="widget-image">
+											<img src="./images/logo/FinalLogoSDG.jpg" alt="SDG">
+										</div>
+										<ul class="widget-links">
+											<li>
+												<i class="fa fa-check-circle"></i>
+
+												<a href="#">জাতীয় দক্ষতা উন্নয়ন-২০১১</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">আইসিটি নীতিমালা-২০১৫</a>
+											</li>
+											<li>
+												<i class="fa fa-check-circle"></i>
+												<a href="#">জাতীয় শিক্ষানীতি-২০১০</a>
+											</li>
+										</ul>
+										<div class="clear-both"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- ----------technical education motivation video ------- -->
+					<section class="techedu_two_colums p-4" style="padding-bottom:15px">
+						<div class="conatiner">
+							<div class="row">
+								<h2 style="margin-bottom: 0px;"
+									class="notice_board_title text-white p-1.5 rounded-md rounded-b-none text-center">
+									কারিগরি শিক্ষা
+								</h2>
+								<div style="height: 430px;" class="">
+									<div style="height: 100%;">
+										<iframe width="100%" height="100%"
+											src="https://www.youtube-nocookie.com/embed/W9SB53E-r6k"
+											title="YouTube video player" frameborder="0" allow="accelerometer" ;
+											autoplay; encrypted-media; gyroscope;>
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ------ google maps ------------- -->
+						<div class="conatiner mt-4">
+							<div class="row">
+								<h2 style="margin-bottom: 0px;"
+									class="notice_board_title text-white p-1.5 rounded-md rounded-b-none text-center">
+									গুগল ম্যাপ
+								</h2>
+								<div class="gMaps">
+									<div class="pb-4">
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7353.667897049009!2d89.54253210052495!3d22.845632165360136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e4bf2dcf241b56d!2sKhulna%20Polytechnic%20Institute!5e0!3m2!1sen!2sbd!4v1642403570566!5m2!1sen!2sbd"
+											style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- ========= right side content =========================== -->
+				<div class=" relative w-1/4 float-left px-4 pr-0">
+					<!-- 1/4-->
+					<aside class="techedu-main-sidebar">
+						<!-- --------------- principal profile -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">অধ্যক্ষ</h2>
+							<div class="profile-photo img-hover-zoom">
+								<img src="./images/side_banner/Animes-Paul.png" alt="Animes Paul">
+							</div>
+							<div class="profile-details">
+								<h3 style="font-size: 22px !important;">প্রকৌশলী অনিমেশ পাল</h3>
+								<a href="./message-form-principal.html" class="read-more">বিস্তারিত</a>
+							</div>
+						</div>
+						<!-- --------------- vice principal profile --------------- -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">উপাধ্যক্ষ</h2>
+							<div class="profile-photo img-hover-zoom">
+								<img src="./images/side_banner/Samsi-Sir.png" alt="Gazi Nurul Iman Samsi">
+							</div>
+							<div class="profile-details">
+								<h3 style="font-size: 22px !important;">গাজী নূরুল ঈমান সামছি</h3>
+								<a href="./message-from-vice-principal.html" class="read-more">বিস্তারিত</a>
+							</div>
+						</div>
+						<!-- ------ technical edcuation slogan ------ -->
+						<div class="single_widget">
+							<div class="">
+								<img src="./images/side_banner/Slogan.png" alt="Technical Slogan">
+							</div>
+						</div>
+						<!-- --------------- important result links -->
+						<div class="single_widget">
+							<h2>শিক্ষা বোর্ডের ফলাফল</h2>
+							<ul class="aside-widget-link">
+								<li>
+									<a href="https://www.educationboardresults.gov.bd/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										শিক্ষাবোর্ডের ফলাফল-টেলিটক
+									</a>
+								</li>
+								<li>
+									<a href="https://eboardresults.com/app/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										শিক্ষাবোর্ডের ফলাফল-ওয়েব
+									</a>
+								</li>
+								<li>
+									<a href="https://www.nu.ac.bd/results/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										জাতীয় বিশ্ববিদ্যালয়ের ফলাফল
+									</a>
+								</li>
+								<li>
+									<a href="https://dperesult.teletalk.com.bd/dpe.php" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										প্রাইমারি সমাপনী পরিক্ষার ফলাফল
+									</a>
+								</li>
+								<li>
+									<a href="https://exam.bou.edu.bd" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										উন্মুক্ত বিশ্ববিদ্যালয়ের ফলাফল
+									</a>
+								</li>
+								<li>
+									<a href="https://ntrca.teletalk.com.bd/result/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										এনটিআরসিএ পরীক্ষার ফলাফল
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- --------------- important link's --------------- -->
+						<div class="single_widget">
+							<h2>গুরুত্বপূর্ণ লিংক</h2>
+							<ul class="aside-widget-link">
+								<li>
+									<a href="https://www.techedu.gov.bd/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										কারিগরি শিক্ষা অধিদপ্তর
+									</a>
+								</li>
+								<li>
+									<a href="https://bteb.gov.bd/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										কারিগরি শিক্ষা বোর্ড
+									</a>
+								</li>
+								<li>
+									<a href="https://bris.lgd.gov.bd/pub/?pg=application_form/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										জন্মমৃত্যু ও নিবন্ধন
+									</a>
+								</li>
+								<li>
+									<a href="https://www.etaxnbr.gov.bd/tpos/home" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										অনলাইনে আয়কর পরিশোধ
+									</a>
+								</li>
+								<li>
+									<a href="https://উত্তরাধিকার.বাংলা/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										উত্তরাধিকার ক্যালকুলেটর
+									</a>
+								</li>
+								<li>
+									<a href="https://pcc.police.gov.bd:8080/ords/f?p=500:1::::::" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										অনলাইন পুলিশ ক্লিয়ারেন্স
+									</a>
+								</li>
+								<li>
+									<a href="https://eservice.bkkb.gov.bd/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										বিকেকেবি শিক্ষাবৃত্তির আবেদন
+									</a>
+								</li>
+								<li>
+									<a href="https://www.forms.gov.bd/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										বাংলাদেশ সরকারের ফরম
+									</a>
+								</li>
+								<li>
+									<a href="https://diabetes-covid19.org/" class="hvr-icon-back">
+										<i class="fas fa-check-circle hvr-icon"></i>
+										কোভিড-19 ও ডায়াবেটিস
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- ------ Bangladesh Government Hotline number ------ -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">জরুরী হটলাইন</h2>
+							<div class="profile-photo img-hover-zoom">
+								<img src="./images/side_banner/Hotline_BN.png" alt="Hotline BD">
+							</div>
+						</div>
+						<!-- ------ Dengu -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">ডেঙ্গু প্রতিরোধে করণীয়</h2>
+							<div class="profile-photo img-hover-zoom">
+								<a href="https://bangladesh.gov.bd/site/page/91530698-c795-4542-88f2-5da1870bd50c"
+									target="_blank" rel="noopener noreferrer">
+									<img src="./images/side_banner/dengu.jpg" alt="Dengu Slogan">
+								</a>
+							</div>
+						</div>
+						<!-- ------ student data collection form ------ -->
+						<div class="single_widget">
+							<div class="profile-photo img-hover-zoom">
+								<a href="#">
+									<img src="./images/side_banner/student-corner.png" alt="Student corner">
+								</a>
+							</div>
+						</div>
+						<!-- National anthem -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">জাতীয় সংগীত</h2>
+							<div class="">
+								<audio controls style="width: 100%;">
+									<source src="./medias/audio/bd_national_anthem.mp3" type="audio/mp3">
+								</audio>
+							</div>
+						</div>
+						<!-- -----------visitor counter ----------- -->
+						<div class="single_widget">
+							<h2 style="margin-bottom: 0px;">ভিজিটর কাউন্টার</h2>
+							<div class="ml-16 pt-1">
+								<img src="https://www.hit-counts.com/counter.php?t=MTQ0NTgzMQ==" alt="">
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</main>
+	</section>
+	<!-- footer -->
+	<footer class="techedu-footer max-w-6xl mx-auto px-3.5 overflow-hidden">
+		<div class="footer-main">
+			<div class="conatiner">
+				<div class="row">
+					<div class="relative w-1/2 float-left px-4">
+						<p>Copyright &copy;KPI all Rights Reserved</p>
+					</div>
+					<div class="relative w-1/2 float-left px-4">
+						<a href="http://facebook.com/nomangazicse" target="_blank">
+							<p class="text-right">Developed By Noman Gazi</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<script src="./assets/js/header_slider.js"></script>
+</body>
+
+</html>
